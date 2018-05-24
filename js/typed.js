@@ -28,9 +28,8 @@ export default class Typed {
    * @public
    */
   stop() {
-    if (this.typingComplete) return;
-    if (this.pause.status) return;
-    this.toggleBlinking(true);
+    if (this.typingComplete) return;   if (this.pause.status) return;
+        this.toggleBlinking(true);
     this.pause.status = true;
     this.options.onStop(this.arrayPos, this);
   }
