@@ -35,7 +35,7 @@ li{
 
 /* Style page content */
 .main {
-    margin-left: 320px; /* Same as the width of the sidebar */
+    margin-left: 315px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
 
@@ -47,7 +47,7 @@ li{
 .container {
     position: relative;
     text-align: left;
-    color: red;
+    color: rgb(0, 128, 0);
     font-family: monospace;
 }
 .centered {
