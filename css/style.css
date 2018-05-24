@@ -1,9 +1,12 @@
 li{
     list-style-type: none;
 }
+.sb{
+    padding-left: 5em;
+}
 .sidenav {
     height: 100%; 
-    width: 200px; 
+    width: 300px; 
     position: fixed; 
     z-index: 1; 
     top: 0;
@@ -11,6 +14,8 @@ li{
     background-color: #323232;
     overflow-x: hidden; 
     padding-top: 20px;
+    color: #b2b2b2;
+    
 }
 
 .sidenav a {
