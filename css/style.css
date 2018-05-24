@@ -5,8 +5,9 @@ li{
     padding-left: 5em;
 }
 .sidenav {
+    float: left;
     height: 100%; 
-    width: 300px; 
+    width: 320px; 
     position: fixed; 
     z-index: 1; 
     top: 0;
@@ -15,6 +16,7 @@ li{
     overflow-x: hidden; 
     padding-top: 20px;
     color: #b2b2b2;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -33,7 +35,7 @@ li{
 
 /* Style page content */
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 320px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
 
