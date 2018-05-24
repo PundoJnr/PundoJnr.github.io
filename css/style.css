@@ -47,11 +47,13 @@ li{
 .container {
     position: relative;
     text-align: left;
-    color: black;
+    color: red;
+    font-family: monospace;
 }
 .centered {
     position: absolute;
     top: 50%;
     left: 47%;
     transform: translate(-50%, -50%);
+    
 }
