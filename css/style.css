@@ -75,7 +75,9 @@ div.gallery {
 
 div.gallery:hover {
     border: 1px solid #777;
-    opacity: 0.5;
+    opacity: 0.8;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 div.gallery img {
