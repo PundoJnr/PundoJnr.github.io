@@ -102,3 +102,9 @@ div.desc {
 .footer :hover{
     color: #b2b2b2;
 }
+.foot{
+    color: #323232;
+    align-content: center;
+    flex: center;
+    
+}
