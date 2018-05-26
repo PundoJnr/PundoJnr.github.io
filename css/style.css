@@ -95,16 +95,10 @@ div.desc {
     right: 0;
     bottom: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: #323232;
     color: #818181;
     text-align: center;
 }
 .footer :hover{
     color: #b2b2b2;
-}
-.foot{
-    color: #323232;
-    align-content: center;
-    flex: center;
-    
 }
