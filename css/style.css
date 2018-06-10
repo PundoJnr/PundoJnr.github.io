@@ -46,10 +46,8 @@ li{
 }
 .container {
     position: relative;
-    text-align: left;
-    color: rgb(0, 128, 0);
-    font-family: monospace;
-}
+    text-align: justify;
+    }
 .centered {
     position: absolute;
     top: 50%;
