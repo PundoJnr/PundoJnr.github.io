@@ -35,7 +35,7 @@ li{
 
 /* Style page content */
 .main {
-    margin-left: 315px; /* Same as the width of the sidebar */
+    margin-left: 320px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
 
@@ -50,8 +50,8 @@ li{
     }
 .centered {
     position: absolute;
-    top: 50%;
-    left: 47%;
+    top: 25%;
+    left: 55%;
     transform: translate(-50%, -50%);
     
 }
@@ -172,5 +172,36 @@ body{
     background-size:cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+  }
+  .typewriter {
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    color: #000;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
   }
   
