@@ -50,9 +50,9 @@
                     
                     <!-- particles.js container -->
                 <div id="particles-js"></div>
-                <h1 class="typewriter centered">
-                     Hey I am Arthur Sidney
+                <h1 id="typing" class="centered" >
                 </h1>
+                
             </div><br><br><br>
                 <h2>About Me</h2>
             
@@ -243,6 +243,20 @@
         };
         requestAnimationFrame(update);
       </script>
+       <script>
+            var i = 0;
+            var txt = 'Lorem ipsum typing effect!'; /* The text */
+            var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+            function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("typing").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+            }
+    </script>
+    
     
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
